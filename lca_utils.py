@@ -513,7 +513,7 @@ def plot_box_horizontal_from_groups(group_arrays: Dict[str, np.ndarray], title: 
     labels = list(group_arrays.keys())
     data = [np.asarray(group_arrays[k], dtype=float) for k in labels]
     plt.figure(figsize=(9, 5))
-    plt.boxplot(data, vert=False, labels=labels, showfliers=True)
+    plt.boxplot(data, vert=False, labels=labels, showfliers=False)
     plt.xlabel("Annualized offered wage (USD)")
     plt.title(title or "Wage distribution")
     plt.grid(axis="x", alpha=0.3)
