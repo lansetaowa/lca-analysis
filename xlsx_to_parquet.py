@@ -1,8 +1,8 @@
 import pandas as pd
 from pathlib import Path
 
-MAIN_PATH = Path("data/LCA_Disclosure_Data_FY2025_Q3.xlsx")
-PARQUET_PATH = Path("data/LCA_Disclosure_Data_FY2025_Q3.parquet")
+MAIN_PATH = Path("data/LCA_Disclosure_Data_FY2025_Q4.xlsx")
+PARQUET_PATH = Path("data/LCA_Disclosure_Data_FY2025_Q4.parquet")
 
 # 读入完整文件
 main = pd.read_excel(MAIN_PATH, dtype=str, engine="openpyxl")
