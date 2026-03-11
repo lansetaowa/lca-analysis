@@ -11,6 +11,19 @@ This repository analyzes the U.S. Department of Labor (DOL) **LCA disclosure dat
 - `company_list_output/` — output folder (exported Excel from last step)
 
 ---
+## Environment
+- Python 3.11
+
+## Setup
+```bash
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+
+pip install -r requirements.txt
+```
 
 ## How to generate the employer list output
 
